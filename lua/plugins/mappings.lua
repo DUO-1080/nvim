@@ -25,7 +25,7 @@ return {
           -- quick save
           ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
           ["<S-CR>"] = { "<ESC>o<c-g>u", desc = "Next Line" },
-          ["<C-\\>"] = { "<cmd>ToggleTerm<cr>", desc = "open term" },
+          ["<C-\\>"] = { "<cmd>ToggleTerm direction=float<cr>", desc = "open term" },
           ["<leader>lS"] = { ":TagbarToggle<cr>", desc = "Open Tagbar" },
           ["<A-j>"] = { ":m .+1<CR>==", desc = "Move Line Up" },
           ["<A-k>"] = { ":m .-2<CR>==", desc = "Move Line Down" },
