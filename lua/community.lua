@@ -18,6 +18,7 @@ return {
   { import = "astrocommunity.search.nvim-hlslens" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.register.nvim-neoclip-lua" },
   { import = "astrocommunity.media.codesnap-nvim" },
   {
     "mistricky/codesnap.nvim",
