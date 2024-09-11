@@ -18,6 +18,8 @@ return {
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.register.nvim-neoclip-lua" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.snippet.nvim-snippets" },
   { import = "astrocommunity.media.codesnap-nvim" },
   {
     "mistricky/codesnap.nvim",
